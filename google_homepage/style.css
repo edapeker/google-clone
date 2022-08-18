@@ -2,9 +2,10 @@
     list-style-type: none;
     margin: 10px;
     overflow: hidden;
-    margin-right: 16px;
     font-family: arial,sans-serif;
     font-size: 13px;
+    position: relative;
+    right: -1000px;
   }
   
   .headerli a {
@@ -13,12 +14,14 @@
     text-align: center;
     padding: 5px 5px;
     text-decoration: none;
+    float: left;
+    margin-right: 10px;
+    
   }
   
   .headerli a:hover {
     text-decoration: underline;
   }
-  
   .container {
     text-align: center;
     margin: 100px;
@@ -34,6 +37,7 @@
     margin: 0 auto;
     margin-top: -77px;
     width: 582px;
+    border-radius: 30px;
   }
   
   .search-area:hover {
@@ -64,6 +68,14 @@
     line-height: 24px;
     position: relative;
   }
+
+  .voice-img span{
+    margin-top: 0px;
+    height: 20px; 
+    width: 20px; 
+    position: relative; 
+    left: 490px;
+  } 
   
   .input-enter {
     display: flex;
@@ -102,6 +114,8 @@
     text-align: start;
     appearance: textfield;
     cursor: text;
+    border: none;
+    width: 480px;
   }
   
   .googlesearch {
